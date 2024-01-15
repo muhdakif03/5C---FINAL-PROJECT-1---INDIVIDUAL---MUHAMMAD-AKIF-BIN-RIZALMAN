@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,700&display=swap');
+
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        body {
+            background-color: #fff;
+        }
+
+        header {
+            width: 100%;
+            height: 15vh;
+            background-color: #03143F;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 1.0);
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 30px 5%;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .logo a {
+            text-decoration: none;
+            color: #FFFFFF;
+            transition: all 0.3s;
+        }
+
+        .logo a:hover {
+            color: #00ABF0;
+        }
+
+        nav ul {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+        }
+
+        nav ul li {
+            list-style: none;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #FFFFFF;
+            font-size: 18px;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #00ABF0;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            border-radius: 16px;
+            background: rgba(0, 0, 0, 0.7);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 1.0);
+            color:#FFFFFF
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .container .card {
+            background-color: #fff;
+            border-radius: 20px;
+            border: 3px solid black;
+            padding: 30px;
+        }
+
+        .container img {
+            display: flex;
+            width: 100px;
+            height: 100px
+        }
+
+        .education ul li {
+            margin-left: 30px;
+            line-height: 50px;
+        }
+
+        h2 {
+            font-size: 30px;
+            font-style: italic;
+        }
+
+        p {
+            line-height: 50px;
+        }
+
+        footer {
+            margin: 30px 0 0;
+            padding: 5px;
+            background-color: #17242A;
+            color: #FFFFFF;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+        <div class="logo"><a href="index.html">Akif Website</a></div>
+        <ul>
+            <li><a href="biodata.html">Biodata</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="family.html">Family</a></li>
+            <li><a href="achievements.html">Achievements</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <section class="education">
+        <h2>Education</h2>
+        <br>
+        <p>Primary School: Sekolah Kebangsaan Padang Garong (1)</p>
+        <p>Secondary School: Sekolah Menengah Kebangsaan Tanjong Chat</p>
+        <p>Graduate From High School: Year 2020</p>
+        <p>Institution: Universiti Teknologi Mara Kampus Machang</p>
+        <p>Field of study: Information Management</p>
+        <p>Diploma: Diploma in Information Management</p>
+        <div class="container">
+            <div class="card">
+                <img src="img/school.png">
+            </div>
+            <div class="card">
+                <img src="img/high_school.png">
+            </div>
+            <div class="card">
+                <img src="img/university.png">
+            </div>
+        </div>
+        <br>
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+        </ul>
+        <div class="container">
+            <div class="card">
+                <img src="img/html_logo.png">
+            </div>
+            <div class="card">
+                <img src="img/css_logo.jpg">
+            </div>
+            <div class="card">
+                <img src="img/javascript_logo.png">
+            </div>
+        </div>
+    </section>
+
+
+    </div>
+        <footer>
+            &copy 2024 Created by Muhammad Akif Bin Rizalman
+        </footer>
+</body>
+</html>
